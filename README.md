@@ -48,7 +48,7 @@ Let's use what we know to create NumPy arrays with the metric equivalent values,
 ```python
 # use the conversion rate for turning height in inches to meters
 list_height_inches = [65, 68, 73, 75, 78]
-list_height_meters = None
+array_height_inches = None
 array_height_meters = None
 ```
 
@@ -56,7 +56,8 @@ array_height_meters = None
 ```python
 # use the conversion rate for turning weight in pounds to kilograms
 list_weight_pounds = [150, 140, 220, 205, 265]
-list_weight_meters = None
+array_weight_punds = None
+array_weight_kg = None
 ```
 
 The metric formula for calculating BMI is as follows:
