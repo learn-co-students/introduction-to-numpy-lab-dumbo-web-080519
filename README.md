@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Intro
+Now that we have introduced NumPy, let's put it to practice. In this lab, we are going to be creating arrays, performing operations on them, and returning new array all using the NumPy library. Let's get started!
 
 ## Objectives
 * Create a NumPy Array
@@ -38,7 +38,10 @@ Next, we have a list of heights and weights and we'd like to use them to create 
 
 Let's use what we know to create NumPy arrays with the metric equivalent values, (height in meters & weight in kg).
 
+> **Remember:** *NumPy can make these calculations a lot easier and with less code than a list!*
+
 > 1.0 inch = 0.0254 meters
+
 > 2.2046 lbs = 1 kilogram
 
 
@@ -46,6 +49,7 @@ Let's use what we know to create NumPy arrays with the metric equivalent values,
 # use the conversion rate for turning height in inches to meters
 list_height_inches = [65, 68, 73, 75, 78]
 list_height_meters = None
+array_height_meters = None
 ```
 
 
@@ -72,4 +76,4 @@ BMI_array = None
 
 ## Summary
 
-Summary
+In this lab, we practiced creating NumPy arrays from both lists and rages. We then practiced peforming math operations like converting imperial measurements to metric measurements on each element of a NumPy array to create new arrays with new values. Finally, we used both of our new NumPy arrays to operate on eachother and create new arrays containing the BMIs from our arrays containing heights and weights.
