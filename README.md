@@ -28,10 +28,10 @@ import numpy as np
 
 
 ```python
-py_list = None
-py_range = None
-array_from_list = None
-array_from_range = None
+py_list = [0,1,2,3,4]
+py_range = range(0,5)
+array_from_list = np.array(py_list)
+array_from_range = np.array(py_range)
 ```
 
 Next, we have a list of heights and weights and we'd like to use them to create a collection of BMIs. However, they are both in inches and pounds (imperial system), respectively. 
@@ -48,16 +48,16 @@ Let's use what we know to create NumPy arrays with the metric equivalent values,
 ```python
 # use the conversion rate for turning height in inches to meters
 list_height_inches = [65, 68, 73, 75, 78]
-array_height_inches = None
-array_height_meters = None
+array_height_inches = np.array(list_height_inches)
+array_height_meters = array_height_inches * 0.0254
 ```
 
 
 ```python
 # use the conversion rate for turning weight in pounds to kilograms
 list_weight_pounds = [150, 140, 220, 205, 265]
-array_weight_punds = None
-array_weight_kg = None
+array_weight_pounds = np.array(list_weight_pounds)
+array_weight_kg = array_weight_pounds / 2.2046
 ```
 
 The metric formula for calculating BMI is as follows:
@@ -72,7 +72,7 @@ Use the BMI calculation to create a NumPy array of BMIs
 
 
 ```python
-BMI_array = None
+BMI_array = array_weight_kg / (array_height_meters * array_height_meters)
 ```
 
 ## Summary

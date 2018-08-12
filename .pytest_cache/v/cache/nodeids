@@ -1,0 +1,10 @@
+[
+  "test/test_index.py::test_py_list",
+  "test/test_index.py::test_py_range",
+  "test/test_index.py::test_array_from_list",
+  "test/test_index.py::test_array_from_range",
+  "test/test_index.py::test_array_height_inches",
+  "test/test_index.py::test_array_height_meters",
+  "test/test_index.py::test_array_weight_kg",
+  "test/test_index.py::test_array_BMI"
+]
