@@ -15,10 +15,14 @@ def test_py_range():
     assert len(py_range) == 5
 
 def test_array_from_list():
+    # asserts that the py_list has been created
+    assert py_list
     array = create_array(py_list)
     assert_array_equal(array_from_list, array, err_msg="Oh no! make sure to use the py_list to create your NumPy array")
 
 def test_array_from_range():
+    # asserts that the py_range has been created
+    assert py_range
     array = create_array(py_range)
     assert_array_equal(array_from_range, array, err_msg="Oh no! make sure to use the py_range to create your NumPy array")
 

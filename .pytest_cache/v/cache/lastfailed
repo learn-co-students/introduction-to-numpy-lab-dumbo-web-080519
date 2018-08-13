@@ -1,8 +1,10 @@
 {
   "test/test_index.py::test_array_BMI": true,
   "test/test_index.py::test_array_from_list": true,
+  "test/test_index.py::test_array_from_range": true,
   "test/test_index.py::test_array_height_inches": true,
   "test/test_index.py::test_array_height_meters": true,
   "test/test_index.py::test_array_weight_kg": true,
+  "test/test_index.py::test_py_list": true,
   "test/test_index.py::test_py_range": true
 }
