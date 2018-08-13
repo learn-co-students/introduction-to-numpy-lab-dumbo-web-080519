@@ -28,7 +28,7 @@ import numpy as np
 
 
 ```python
-py_list = [0,1,2,3,4]
+py_list = None
 py_range = None
 array_from_list = None
 array_from_range = None

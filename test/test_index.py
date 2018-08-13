@@ -6,7 +6,6 @@ from ipynb.fs.full.index import py_list, py_range, array_from_list, array_from_r
 list_height_inches = [65, 68, 73, 75, 78]
 list_weight_pounds = [150, 140, 220, 205, 265]
 
-
 def test_py_list():
     assert type(py_list) == type([])
     assert len(py_list) == 5
